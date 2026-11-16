@@ -1,0 +1,2957 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        />
+        <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>Discord Music Remote</title>
+        <link
+            rel="icon"
+            id="favicon"
+            type="image/svg+xml"
+            href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiM1ODY1RjIiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5LjYgOS42KSBzY2FsZSgxLjgpIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjAuMzE3IDQuMzY5OGExOS43OTEzIDE5Ljc5MTMgMCAwMC00Ljg4NTEtMS41MTUyLjA3NDEuMDc0MSAwIDAwLS4wNzg1LjAzNzFjLS4yMTEuMzc1My0uNDQ0Ny44NjQ4LS42MDgzIDEuMjQ5NS0xLjg0NDctLjI3NjItMy42OC0uMjc2Mi01LjQ4NjggMC0uMTYzNi0uMzkzMy0uNDA1OC0uODc0Mi0uNjE3Ny0xLjI0OTVhLjA3Ny4wNzcgMCAwMC0uMDc4NS0uMDM3IDE5LjczNjMgMTkuNzM2MyAwIDAwLTQuODg1MiAxLjUxNS4wNjk5LjA2OTkgMCAwMC0uMDMyMS4wMjc3Qy41MzM0IDkuMDQ1OC0uMzE5IDEzLjU3OTkuMDk5MiAxOC4wNTc4YS4wODI0LjA4MjQgMCAwMC4wMzEyLjA1NjFjMi4wNTI4IDEuNTA3NiA0LjA0MTMgMi40MjI4IDUuOTkyOSAzLjAyOTRhLjA3NzcuMDc3NyAwIDAwLjA4NDItLjAyNzZjLjQ2MTYtLjYzMDQuODczMS0xLjI5NTIgMS4yMjYtMS45OTQyYS4wNzYuMDc2IDAgMDAtLjA0MTYtLjEwNTdjLS42NTI4LS4yNDc2LTEuMjc0My0uNTQ5NS0xLjg3MjItLjg5MjNhLjA3Ny4wNzcgMCAwMS0uMDA3Ni0uMTI3N2MuMTI1OC0uMDk0My4yNTE3LS4xOTIzLjM3MTgtLjI5MTRhLjA3NDMuMDc0MyAwIDAxLjA3NzYtLjAxMDVjMy45Mjc4IDEuNzkzMyA4LjE4IDEuNzkzMyAxMi4wNjE0IDBhLjA3MzkuMDczOSAwIDAxLjA3ODUuMDA5NWMuMTIwMi4wOTkuMjQ2LjE5ODEuMzcyOC4yOTI0YS4wNzcuMDc3IDAgMDEtLjAwNjYuMTI3NiAxMi4yOTg2IDEyLjI5ODYgMCAwMS0xLjg3My44OTE0LjA3NjYuMDc2NiAwIDAwLS4wNDA3LjEwNjdjLjM2MDQuNjk4Ljc3MTkgMS4zNjI4IDEuMjI1IDEuOTkzMmEuMDc2LjA3NiAwIDAwLjA4NDIuMDI4NmMxLjk2MS0uNjA2NyAzLjk0OTUtMS41MjE5IDYuMDAyMy0zLjAyOTRhLjA3Ny4wNzcgMCAwMC4wMzEzLS4wNTUyYy41MDA0LTUuMTc3LS44MzgyLTkuNjczOS0zLjU0ODUtMTMuNjYwNGEuMDYxLjA2MSAwIDAwLS4wMzEyLS4wMjg2ek04LjAyIDE1LjMzMTJjLTEuMTgyNSAwLTIuMTU2OS0xLjA4NTctMi4xNTY5LTIuNDE5IDAtMS4zMzMyLjk1NTUtMi40MTg5IDIuMTU3LTIuNDE4OSAxLjIxMDggMCAyLjE3NTcgMS4wOTUyIDIuMTU2OCAyLjQxOSAwIDEuMzMzMi0uOTU1NSAyLjQxODktMi4xNTY5IDIuNDE4OXptNy45NzQ4IDBjLTEuMTgyNSAwLTIuMTU2OS0xLjA4NTctMi4xNTY5LTIuNDE5IDAtMS4zMzMyLjk1NTQtMi40MTg5IDIuMTU2OS0yLjQxODkgMS4yMTA4IDAgMi4xNzU3IDEuMDk1MiAyLjE1NjggMi40MTkgMCAxLjMzMzItLjk0NiAyLjQxODktMi4xNTY4IDIuNDE4OVoiLz48L2c+PC9zdmc+"
+        />
+        <link rel="apple-touch-icon" id="touchicon" href="" />
+        <style>
+            @font-face {
+                font-family: "SF Pro Display";
+                src: url("/fonts/SF-Pro-Display-Regular.woff") format("woff");
+                font-weight: 400;
+                font-display: swap;
+            }
+            @font-face {
+                font-family: "SF Pro Display";
+                src: url("/fonts/SF-Pro-Display-Medium.woff") format("woff");
+                font-weight: 500;
+                font-display: swap;
+            }
+            @font-face {
+                font-family: "SF Pro Display";
+                src: url("/fonts/SF-Pro-Display-Semibold.woff") format("woff");
+                font-weight: 600;
+                font-display: swap;
+            }
+            @font-face {
+                font-family: "SF Pro Display";
+                src: url("/fonts/SF-Pro-Display-Bold.woff") format("woff");
+                font-weight: 700;
+                font-display: swap;
+            }
+            @font-face {
+                font-family: "SF Pro Text";
+                src: url("/fonts/SF-Pro-Text-Semibold.woff") format("woff");
+                font-weight: 600;
+                font-display: swap;
+            }
+            :root {
+                --bg: #0b0b12;
+                --panel: rgba(255, 255, 255, 0.055);
+                --line: rgba(255, 255, 255, 0.09);
+                --txt: #f2f2f7;
+                --dim: #9a9aae;
+                --acc: rgba(255, 255, 255, 0.062);
+                --grn: #1ed760;
+                --red: #ed4245;
+                --glow: 88, 101, 242;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                margin: 0;
+                min-height: 100vh;
+                background: var(--bg);
+                color: var(--txt);
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "SF Pro Display",
+                    "SF Pro Text", "Helvetica Neue", "Segoe UI", Roboto,
+                    system-ui, sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                text-rendering: optimizeLegibility;
+                letter-spacing: -0.01em;
+                display: flex;
+                justify-content: center;
+                padding: 18px 14px 60px;
+
+                /* 👇 Mencegah blok biru (highlight) di seluruh UI */
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                -webkit-tap-highlight-color: transparent;
+            }
+            body.has-dock {
+                padding-bottom: 130px;
+            }
+            body.is-dragging {
+                cursor: grabbing;
+                user-select: none;
+                -webkit-user-select: none;
+            }
+            button {
+                font-family: inherit;
+            }
+            .bg {
+                position: fixed;
+                inset: -40px;
+                z-index: -1;
+                background: center/cover;
+                filter: blur(70px) saturate(1.2); /* Kurangi sedikit saturasi */
+                opacity: 0.18; /* Diturunkan dari 0.35 agar lebih gelap & tidak menyilaukan */
+                transition:
+                    background-image 0.8s,
+                    opacity 0.8s;
+            }
+            .wrap {
+                width: 100%;
+                max-width: 900px; /* Diperlebar agar 2 kolom muat dengan lega */
+                transition: max-width 0.3s ease;
+            }
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 18px;
+            }
+            h1 {
+                font-size: 20px;
+                margin: 0;
+                letter-spacing: 0.2px;
+            }
+            .user {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                background: var(--panel);
+                border: 1px solid var(--line);
+                padding: 5px 6px 5px 5px;
+                border-radius: 99px;
+            }
+            .user img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            }
+            .user span {
+                font-size: 14px;
+                font-weight: 600;
+            }
+            .user svg {
+                transform: translateX(-5px) translateY(0.5px);
+            }
+            .btn {
+                border: 0;
+                cursor: pointer;
+                color: #fff;
+                background: var(--acc);
+                padding: 9px 18px;
+                border-radius: 99px;
+                font-weight: 700;
+                font-size: 14px;
+                text-decoration: none;
+                transition: filter 0.15s;
+            }
+            .btn:hover:not(:disabled) {
+                filter: brightness(1.15);
+            }
+            .btn.red {
+                background: var(--red);
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+            #main {
+                display: none;
+            }
+            .glass {
+                background: var(--panel);
+                border: 1px solid var(--line);
+                border-radius: 18px;
+                backdrop-filter: blur(14px);
+            }
+
+            /* Layout 2 Kolom di Desktop */
+            .main-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+                align-items: start;
+            }
+            .col-left,
+            .col-right {
+                min-width: 0;
+                display: flex;
+                flex-direction: column;
+            }
+            .col-right .qbox {
+                margin-top: 0; /* Hilangkan margin-top karena posisinya sudah sejajar */
+            }
+
+            /* search */
+            .search {
+                display: flex;
+                gap: 8px;
+                padding: 8px;
+                margin-bottom: 10px;
+                transition: 0.2s;
+            }
+            .search:focus-within {
+                border-color: rgba(
+                    255,
+                    255,
+                    255,
+                    0.2
+                ); /* Warna border netral saat aktif */
+            }
+            .search input {
+                flex: 1;
+                min-width: 0;
+                background: none;
+                border: 0;
+                outline: 0;
+                color: var(--txt);
+                font-size: 15px;
+                padding: 8px 10px;
+                font-family: inherit;
+                letter-spacing: -0.01em;
+
+                /* 👇 Izinkan copy-paste teks link di input */
+                -webkit-user-select: text;
+                user-select: text;
+            }
+
+            .go {
+                background: var(--grn);
+                color: #04210f;
+            }
+            .btn.se {
+                display: grid;
+                place-items: center;
+                width: 40px;
+                height: 40px;
+                padding: 0;
+                border-radius: 50%;
+                flex: none;
+
+                /* 👇 Default: transparan, teks abu-abu */
+                background: transparent;
+                color: var(--dim);
+                transition:
+                    background 0.2s,
+                    color 0.2s;
+            }
+
+            /* 👇 Efek saat di-hover: background ikut warna cover art */
+            .btn.se:hover:not(:disabled) {
+                background: rgba(255, 255, 255, 0.082);
+                color: #ffffff; /* Warna teks jadi gelap agar terbaca di background terang */
+            }
+
+            .btn.se:disabled {
+                opacity: 0.6;
+                cursor: default;
+            }
+
+            /* Tombol X hapus teks pencarian */
+            /* Pembungkus input agar tombol X bisa mengapung di dalam */
+            .search-input-wrap {
+                position: relative;
+                flex: 1;
+                display: flex;
+                align-items: center;
+                min-width: 0;
+            }
+            .search-input-wrap input {
+                width: 100%;
+                padding-right: 40px !important; /* Beri ruang agar teks tidak nabrak tombol X */
+            }
+
+            /* Tombol X hapus teks pencarian */
+            .btn.clear {
+                display: none;
+                position: absolute;
+                right: 1px; /* Nempel ke kanan */
+                top: 50%;
+                transform: translateY(-50%);
+                width: 28px;
+                height: 28px;
+                padding: 0;
+                border-radius: 50%;
+                background: transparent;
+                color: var(--dim);
+                cursor: pointer;
+                border: 0;
+                place-items: center;
+                transition:
+                    background 0.2s,
+                    color 0.2s;
+            }
+            .btn.clear.show {
+                display: grid;
+            }
+            .btn.clear:hover:not(:disabled) {
+                color: #fff;
+            }
+
+            .chips {
+                display: flex;
+                gap: 6px;
+                margin-bottom: 12px;
+                flex-wrap: wrap;
+            }
+            .chip {
+                border: 1px solid var(--line);
+                background: none;
+                color: var(--dim);
+                padding: 5px 12px;
+                border-radius: 99px;
+                font-size: 12px;
+                cursor: pointer;
+            }
+            .chip.on {
+                background: var(--txt);
+                color: #111;
+                border-color: var(--txt);
+            }
+            .hint {
+                font-size: 12px;
+                color: var(--dim);
+                margin: 0 4px 8px;
+            }
+
+            /* rows (hasil & antrian) */
+            .row {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 8px 10px;
+                border-radius: 12px;
+                position: relative;
+                transition: background-color 0.1s ease;
+            }
+            .row:hover {
+                background: rgba(255, 255, 255, 0.06);
+            }
+            /* Efek scale dihilangkan, hanya highlight background yang tersisa */
+            .row img,
+            .ph {
+                width: 48px;
+                height: 48px;
+                border-radius: 8px;
+                object-fit: cover;
+                flex: none;
+                background: #222;
+            }
+            .ph {
+                display: grid;
+                place-items: center;
+                font-size: 20px;
+            }
+            .meta {
+                flex: 1;
+                min-width: 0;
+            }
+            .t {
+                font-weight: 600;
+                font-size: 14px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .a {
+                color: var(--dim);
+                font-size: 12px;
+                margin-top: 2px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            /* judul & artis di daftar (hasil cari, terakhir diputar, queue) tampil penuh */
+            .row .t,
+            .row .a {
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                white-space: normal;
+                overflow-wrap: break-word;
+                word-break: break-word;
+                min-width: 0;
+                line-height: 1.3;
+            }
+
+            .row .a {
+                -webkit-line-clamp: 1;
+            }
+            .row .a .tag {
+                white-space: nowrap;
+            }
+            .tag {
+                font-size: 10px;
+                padding: 1px 6px;
+                border-radius: 5px;
+                margin-right: 6px;
+                font-weight: 700;
+                background: rgba(var(--glow), 0.25);
+            }
+            .tag.youtube {
+                background: rgba(237, 66, 69, 0.28);
+            }
+            .tag.spotify {
+                background: rgba(30, 215, 96, 0.25);
+            }
+            .tag.lyric {
+                background: rgba(250, 190, 40, 0.28);
+            }
+            .tag.auto {
+                background: rgba(30, 215, 96, 0.22);
+                color: var(--grn);
+            }
+            .tag.req {
+                background: color-mix(
+                    in srgb,
+                    var(--np, #fff) 14%,
+                    transparent
+                );
+                color: var(--np);
+                margin-right: 0;
+                transition:
+                    background 0.6s,
+                    color 0.6s;
+                font-family: inherit;
+                font-size: 14px; /* Samakan dengan ukuran .t */
+                font-weight: 400; /* Samakan dengan ketebalan .t */
+                border-radius: 20px;
+            }
+            /* queue: badge di bawah nama artis */
+            .row .qtags {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 4px;
+                margin-top: 3px;
+            }
+            .row .qtags .tag {
+                margin-right: 0;
+            }
+            .row .tag.req {
+                font-size: 11px;
+                padding: 1px 8px;
+                color: var(--req-color, var(--txt));
+                background: var(--req-bg, rgba(255, 255, 255, 0.12));
+                transition:
+                    color 0.6s,
+                    background 0.6s;
+            }
+            .dur {
+                color: var(--dim);
+                font-size: 12px;
+                font-variant-numeric: tabular-nums;
+            }
+            .ib {
+                border: 0;
+                width: 34px;
+                height: 34px;
+                border-radius: 50%;
+                background: transparent;
+                color: rgba(255, 255, 255, 0.541);
+                cursor: pointer;
+                flex: none;
+                font-size: 13px;
+                display: grid;
+                place-items: center;
+                padding: 0;
+                transition: background 0.1s;
+            }
+            .ib:hover:not(:disabled) {
+                color: white;
+                background: var(--acc);
+            }
+            .ib.x {
+                color: #fff; /* Pastikan ikon berwarna putih */
+            }
+            .ib.x:hover:not(:disabled) {
+                background: var(--red);
+                color: #fff;
+            }
+            .ib:disabled {
+                opacity: 0.5;
+                cursor: default;
+            }
+            .skel {
+                height: 64px;
+                border-radius: 12px;
+                margin-bottom: 6px;
+                background: linear-gradient(
+                    90deg,
+                    rgba(255, 255, 255, 0.04),
+                    rgba(255, 255, 255, 0.1),
+                    rgba(255, 255, 255, 0.04)
+                );
+                background-size: 200% 100%;
+                animation: sh 1.2s infinite;
+            }
+            @keyframes sh {
+                to {
+                    background-position: -200% 0;
+                }
+            }
+
+            /* queue */
+            .qbox {
+                padding: 12px 8px 8px;
+                margin-top: 22px;
+            }
+            .qh {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                margin: 0 8px 4px;
+            }
+            .qh h3 {
+                margin: 0;
+                font-size: 16px;
+            }
+            .qh small {
+                color: var(--dim);
+            }
+            .qbox .hint {
+                margin: 0 8px 8px;
+            }
+            #queue {
+                position: relative;
+            }
+            .q-row {
+                touch-action: pan-y;
+                outline: 0;
+            }
+            .q-row:focus-visible {
+                box-shadow: 0 0 0 2px var(--acc);
+            }
+            @media (hover: hover) and (pointer: fine) {
+                .q-row {
+                    cursor: grab;
+                }
+            }
+            .grip {
+                color: var(--dim);
+                padding: 8px 4px;
+                touch-action: none;
+                user-select: none;
+                flex: none;
+                display: grid;
+                place-items: center;
+                cursor: grab;
+                border-radius: 8px;
+                transition:
+                    color 0.2s,
+                    background 0.2s,
+                    transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
+            }
+            .q-row:hover .grip {
+                color: var(--txt);
+                background: rgba(255, 255, 255, 0.06);
+            }
+            .q-row:hover .grip svg {
+                animation: iconBounce 0.2s ease-out;
+            }
+            .grip:active {
+                transform: scale(0.9);
+            }
+            .idx {
+                width: 18px;
+                text-align: center;
+                color: var(--dim);
+                font-size: 12px;
+                flex: none;
+                font-variant-numeric: tabular-nums;
+            }
+            .q-row {
+                transition:
+                    background 0.2s,
+                    transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1),
+                    box-shadow 0.28s;
+                will-change: transform;
+            }
+            .q-row.pressing {
+                transform: scale(0.982);
+                background-color: rgba(255, 255, 255, 0.07);
+            }
+            .q-row.dragging {
+                z-index: 50;
+                /* warna dari cover art (di-set lewat JS) */
+                background-color: var(--drag-bg, rgba(255, 255, 255, 0.1));
+                border: 1px solid transparent;
+                box-shadow: none;
+                cursor: grabbing;
+                transition:
+                    background-color 0.25s,
+                    border-color 0.25s,
+                    box-shadow 0.25s;
+                border-radius: 12px;
+            }
+            /* baris lain meredup sedikit supaya fokus ke yang ditarik */
+            .q-row:not(.dragging) {
+                transition:
+                    background 0.2s,
+                    transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1),
+                    box-shadow 0.28s,
+                    opacity 0.2s;
+            }
+            body.is-dragging .q-row:not(.dragging) {
+                opacity: 0.55;
+            }
+            body.is-dragging .q-row.dragging .grip {
+                color: #fff;
+            }
+            body.is-dragging .q-row.dragging .idx {
+                color: #fff;
+                font-weight: 700;
+            }
+            .q-row img {
+                pointer-events: none;
+                -webkit-user-drag: none;
+            }
+            .more {
+                display: block;
+                width: 100%;
+                margin: 10px 0 4px;
+                padding: 11px;
+                border: 1px solid var(--line);
+                border-radius: 12px;
+                background: var(--panel);
+                color: var(--dim);
+                font: inherit;
+                font-size: 13px;
+                font-weight: 600;
+                cursor: pointer;
+                transition:
+                    color 0.2s,
+                    background 0.2s;
+            }
+            .more:hover {
+                color: var(--txt);
+                background: rgba(255, 255, 255, 0.09);
+            }
+            .empty {
+                text-align: center;
+                color: var(--dim);
+                padding: 26px 12px;
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            /* Semua list (antrian, hasil, recent): tombol muncul dengan transisi 0.2s saat hover */
+            @media (hover: hover) {
+                .row .acts,
+                .row > .ib {
+                    opacity: 0;
+                    pointer-events: none;
+                    transition:
+                        opacity 0.1s ease,
+                        background 0.1s ease;
+                }
+                .row:hover .acts,
+                .row:focus-within .acts,
+                .row:hover > .ib,
+                .row:focus-within > .ib {
+                    opacity: 1;
+                    pointer-events: auto;
+                }
+            }
+            .acts {
+                display: flex;
+                gap: 6px;
+            }
+            /* saat drag: tombol play & hapus disembunyikan di semua baris */
+            body.is-dragging .q-row .acts {
+                opacity: 0;
+                pointer-events: none;
+            }
+            /* sembunyikan text hint saat drag biar fokus */
+            body.is-dragging .qhint,
+            body.is-dragging .q-status {
+                opacity: 0;
+                transition: opacity 0.15s;
+            }
+
+            /* dock player (Seperti Spotify) */
+            .dock {
+                position: fixed;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 20;
+                display: none;
+                grid-template-columns: minmax(0, 1fr) minmax(
+                        300px,
+                        560px
+                    ) minmax(0, 1fr);
+                align-items: stretch; /* Ubah dari center ke stretch */
+                gap: 20px;
+                padding: 12px 24px calc(12px + env(safe-area-inset-bottom, 0px));
+                background: rgba(12, 12, 20, 0.82);
+                backdrop-filter: blur(24px) saturate(1.5);
+                -webkit-backdrop-filter: blur(24px) saturate(1.5);
+                border-top: 1px solid var(--line);
+            }
+            .dock.show {
+                display: grid;
+            }
+            .d-info {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 12px;
+                min-width: 0;
+            }
+            .d-info img {
+                width: 56px;
+                height: 56px;
+                border-radius: 10px;
+                object-fit: cover;
+                flex: none;
+                background: #222;
+                box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+            }
+            .d-info .t {
+                font-size: 14px;
+            }
+            .d-info .ph {
+                width: 56px;
+                height: 56px;
+                border-radius: 10px;
+                display: grid;
+                place-items: center;
+                font-size: 24px;
+            }
+            .meta {
+                flex: 1;
+                min-width: 0;
+            }
+            .btns {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+            .btns-side {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                flex: 1; /* Membagi rata ruang kiri dan kanan */
+            }
+            .btns-side.left {
+                justify-content: flex-end; /* Narik tombol ke arah tengah */
+                padding-right: 12px; /* Jarak tombol infinity ke Pause */
+            }
+            .btns-side.right {
+                justify-content: flex-start; /* Narik tombol ke arah tengah */
+                padding-left: 12px; /* Jarak tombol skip ke Pause */
+            }
+            .dock.idle .pbar {
+                opacity: 0.35;
+                pointer-events: none;
+            }
+
+            .pp:disabled,
+            .ic:disabled {
+                opacity: 0.4;
+                cursor: default;
+                pointer-events: none;
+            }
+            .link {
+                background: none;
+                border: 1px solid rgba(255, 255, 255, 0.089);
+                color: var(--dim);
+                font-size: 12px;
+                cursor: pointer;
+                padding: 4px 8px;
+                border-radius: 8px;
+                transition: 0.2s;
+            }
+            .link:hover {
+                color: var(--txt);
+                background: rgba(255, 255, 255, 0.06);
+            }
+            .rbox {
+                padding: 12px 8px 8px;
+                margin-top: 6px;
+            }
+            .rbox .link.more {
+                display: block;
+                margin: 2px auto 4px;
+            }
+            .q-status {
+                margin: 4px 8px 8px;
+                padding: 10px 12px;
+                border-radius: 12px;
+                background: rgba(237, 66, 69, 0.14);
+                border: 1px solid rgba(237, 66, 69, 0.4);
+                font-size: 13px;
+                line-height: 1.45;
+            }
+            .d-mid {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 8px; /* Ubah jaraknya jadi lebih lega (misal 8px atau 10px) */
+                min-width: 0;
+                height: 100%;
+            }
+            .btns {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .pp {
+                width: 38px;
+                height: 38px;
+                border-radius: 50%;
+                border: 0;
+                background: #fff;
+                color: #111;
+                display: grid;
+                place-items: center;
+                cursor: pointer;
+            }
+            .ic {
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                border: 0;
+                background: none;
+                color: var(--dim);
+                display: grid;
+                place-items: center;
+                cursor: pointer;
+                position: relative;
+                transition:
+                    color 0.2s,
+                    background 0.2s;
+            }
+            .ic:hover:not(:disabled) {
+                color: var(--txt);
+                background: rgba(255, 255, 255, 0.08);
+            }
+            .ic.on {
+                color: var(--grn);
+            }
+            .ic.on::after {
+                content: "";
+                position: absolute;
+                left: 50%;
+                bottom: 3px;
+                width: 4px;
+                height: 4px;
+                margin-left: -2px;
+                border-radius: 50%;
+                background: var(--grn);
+            }
+            .pp:focus-visible,
+            .ic:focus-visible {
+                outline: 2px solid #fff;
+                outline-offset: 2px;
+            }
+            .d-mid {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+                min-width: 0;
+            }
+            @media (min-width: 761px) {
+                .d-mid {
+                    flex-direction: column-reverse; /* Membalik urutan hanya untuk PC */
+                    gap: 8px; /* Jarak yang pas untuk PC */
+                }
+            }
+            .prog {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 11px;
+                color: var(--dim);
+                font-variant-numeric: tabular-nums;
+            }
+            .prog span {
+                width: 34px;
+                flex: none;
+            }
+            .prog span:first-child {
+                text-align: right;
+            }
+            .pbar {
+                position: relative;
+                flex: 1;
+                height: 20px;
+                cursor: pointer;
+                touch-action: none;
+                display: flex;
+                align-items: center;
+                outline: 0;
+            }
+            .pbar .trk {
+                width: 100%;
+                height: 4px;
+                border-radius: 5px;
+                background: rgba(255, 255, 255, 0.18);
+                position: relative;
+                transition: height 0.15s;
+            }
+            .pbar:hover .trk,
+            .pbar.drag .trk {
+                height: 7px;
+            }
+            .fill {
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 0;
+                border-radius: 5px;
+                background: var(--np, #fff);
+                transition: background 0.6s;
+            }
+            .fill::after {
+                content: "";
+                position: absolute;
+                right: -7px;
+                top: 50%;
+                width: 14px;
+                height: 14px;
+                margin-top: -7px;
+                border-radius: 50%;
+                background: #fff;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+                transform: scale(0);
+                transition: transform 0.15s;
+            }
+            .pbar:hover .fill::after,
+            .pbar.drag .fill::after,
+            .pbar:focus-visible .fill::after {
+                transform: scale(1);
+            }
+            .tip {
+                position: absolute;
+                bottom: 22px;
+                transform: translateX(-50%);
+                background: #000c;
+                padding: 2px 7px;
+                border-radius: 6px;
+                font-size: 11px;
+                pointer-events: none;
+                opacity: 0;
+                transition: opacity 0.12s;
+                color: var(--txt);
+            }
+            .pbar:hover .tip,
+            .pbar.drag .tip {
+                opacity: 1;
+            }
+
+            #toasts {
+                position: fixed;
+                bottom: 18px;
+                left: 50%;
+                transform: translateX(-50%);
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                z-index: 50;
+                align-items: center;
+                pointer-events: none;
+            }
+            body.has-dock #toasts {
+                bottom: 100px; /* 👈 Diubah dari 114px */
+            }
+            .toast {
+                background: rgba(15, 15, 20, 0.5); /* Hitam transparan */
+                border: 1px solid rgba(255, 255, 255, 0.08);
+                padding: 10px 16px;
+                border-radius: 12px;
+                font-size: 13px;
+
+                /* 👇 Hapus box-shadow */
+
+                /* 👇 Posisi awal untuk animasi slide up */
+                opacity: 0;
+                transition: opacity 0.2s ease;
+            }
+
+            /* 👇 Class untuk memicu animasi muncul */
+            .toast.show {
+                opacity: 1;
+                animation: kntl 0.2s;
+            }
+
+            @keyframes kntl {
+                from {
+                    transform: translateY(20px);
+                }
+                to {
+                    from {
+                        transform: translateY(0px);
+                    }
+                }
+            }
+
+            .toast.err {
+                border-color: var(--red);
+            }
+            .toast.warn {
+                border-color: #faa61a;
+                background: rgba(42, 37, 26, 0.85);
+            }
+            /* Blok ini dihapus karena sudah diganti dengan transition */
+
+            /* ===== Animasi ikon (simpel) ===== */
+            @keyframes iconBounce {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.08);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+            @keyframes iconTap {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(0.92);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+            /* Tombol yang punya SVG: animasi hanya di ikon */
+            .btn:hover:not(:disabled) svg,
+            .btn.se:hover:not(:disabled) svg,
+            .ic:hover:not(:disabled) svg,
+            .pp:hover:not(:disabled) svg,
+            .ib:hover:not(:disabled) svg {
+                animation: iconBounce 0.2s ease-out;
+            }
+            .btn:active:not(:disabled) svg,
+            .btn.se:active:not(:disabled) svg,
+            .ic:active:not(:disabled) svg,
+            .pp:active:not(:disabled) svg,
+            .ib:active:not(:disabled) svg {
+                animation: iconTap 0.15s ease-out;
+            }
+
+            .d-side {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                min-width: 0;
+            }
+            .ic.dj.can {
+                color: #eb459e;
+            }
+            .ic.dj.mine {
+                color: #eb459e;
+                background: rgba(235, 69, 158, 0.14);
+            }
+            .ic.dj img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+                box-shadow: 0 0 0 2px #eb459e;
+            }
+            /* terkunci karena DJ mode (hak akses diatur DJ di Discord) */
+            body.lock-control #auto,
+            body.lock-control #pp,
+            body.lock-control #skip,
+            body.lock-control #loop,
+            body.lock-control #pbar,
+            body.lock-control #queue [data-a="jump"],
+            body.lock-queue #queue [data-a="rm"],
+            body.lock-request .search,
+            body.lock-request #results {
+                opacity: 0.4;
+                cursor: not-allowed;
+            }
+            .ic.dj:disabled {
+                opacity: 0.35;
+                cursor: not-allowed;
+            }
+
+            /* ===== beda voice dengan bot ===== */
+            .voice-banner {
+                grid-column: 1 / -1;
+                padding: 14px 16px;
+                border-radius: 16px;
+                background: rgba(237, 66, 69, 0.14);
+                border: 1px solid rgba(237, 66, 69, 0.45);
+                line-height: 1.45;
+            }
+            .voice-banner .vb-t {
+                font-weight: 700;
+                font-size: 14px;
+            }
+            .voice-banner .vb-s {
+                font-size: 13px;
+                color: var(--dim);
+                margin-top: 2px;
+            }
+            .voice-banner .vb-s b {
+                color: var(--txt);
+            }
+            @media (max-width: 760px) {
+                .voice-banner {
+                    margin-bottom: 12px;
+                }
+                .prog {
+                    margin-bottom: 5px;
+                }
+            }
+            .col-left,
+            .col-right,
+            .d-mid {
+                transition:
+                    opacity 0.35s,
+                    filter 0.35s;
+            }
+            body.lock-voice .col-left,
+            body.lock-voice .col-right,
+            body.lock-voice .d-mid {
+                opacity: 0.32;
+                filter: grayscale(1) brightness(0.55);
+                pointer-events: none;
+                cursor: not-allowed;
+                user-select: none;
+            }
+            .djbox {
+                display: none;
+                align-items: center;
+                gap: 10px;
+                max-width: 100%;
+                padding: 6px 16px 6px 6px;
+                border-radius: 999px;
+                background: rgba(235, 69, 158, 0.12);
+                border: 1px solid rgba(235, 69, 158, 0.35);
+            }
+            .djbox.show {
+                display: flex;
+            }
+            .djbox img {
+                width: 34px;
+                height: 34px;
+                border-radius: 50%;
+                object-fit: cover;
+                flex: none;
+            }
+            .djbox .n {
+                min-width: 0;
+            }
+            .djbox small {
+                display: block;
+                font-size: 10px;
+                font-weight: 700;
+                letter-spacing: 0.06em;
+                text-transform: uppercase;
+                color: #eb459e;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .djbox b {
+                display: block;
+                font-size: 13px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            @media (max-width: 760px) {
+                .q-row .idx,
+                .row .dur {
+                    display: none;
+                }
+
+                /* grip tetap tampil supaya bisa ditarik di HP, tapi dikecilkan */
+                .q-row .grip {
+                    padding: 6px 2px;
+                }
+
+                .q-row .grip svg {
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .row {
+                    padding: 6px 8px;
+                    gap: 8px;
+                }
+
+                .row img,
+                .row .ph {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 6px;
+                }
+
+                .row .acts .ib {
+                    width: 30px;
+                    height: 30px;
+                }
+
+                .main-grid {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0;
+                    width: 100%;
+                }
+
+                /* Bongkar pembungkus kolom */
+                .col-left,
+                .col-right {
+                    display: contents;
+                }
+
+                /* 👇 KUNCI UTAMA: Paksa semua kotak jadi sama lebar */
+                .search,
+                .qbox,
+                .rbox {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    box-sizing: border-box !important;
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+
+                /* Urutan dari atas ke bawah */
+                .search {
+                    order: 1;
+                    margin-bottom: 16px !important;
+                }
+
+                .chips {
+                    order: 2;
+                }
+                #results {
+                    order: 3;
+                    margin-bottom: 16px;
+                }
+
+                .qbox {
+                    order: 4;
+                    margin-top: 0 !important;
+                    margin-bottom: 16px !important;
+                }
+
+                .rbox {
+                    order: 5;
+                    margin-top: 0 !important;
+                }
+
+                /* Sisa CSS Mobile */
+                body.has-dock {
+                    padding-bottom: 240px;
+                }
+                body.has-dock #toasts {
+                    bottom: 168px;
+                }
+                .dock {
+                    grid-template-columns: minmax(0, 1fr);
+                    gap: 6px;
+                    padding: 10px 14px
+                        calc(10px + env(safe-area-inset-bottom, 0px));
+                }
+                .dock > .d-side {
+                    display: flex;
+                    justify-content: center;
+                }
+                .dock > .d-side .djbox {
+                    display: none !important;
+                }
+                .d-info img,
+                .d-info .ph {
+                    width: 44px;
+                    height: 44px;
+                }
+                .user span {
+                    display: none;
+                }
+            }
+
+            /* ===== Nuansa tipografi iOS ===== */
+            h1,
+            .qh h3 {
+                font-weight: 700;
+                letter-spacing: -0.02em;
+            }
+            .t {
+                font-weight: 600;
+                letter-spacing: -0.01em;
+            }
+            .a,
+            .hint,
+            .dur,
+            .idx {
+                letter-spacing: 0;
+            }
+            button,
+            .btn,
+            .chip,
+            .link {
+                letter-spacing: -0.01em;
+                -webkit-tap-highlight-color: transparent;
+            }
+            input::placeholder {
+                letter-spacing: -0.01em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bg" id="bg"></div>
+        <div class="wrap">
+            <header>
+                <h1>...</h1>
+                <div id="userBox"></div>
+            </header>
+
+            <div id="main">
+                <div class="main-grid">
+                    <!-- PERINGATAN BEDA VOICE -->
+                    <div
+                        class="voice-banner"
+                        id="voiceBanner"
+                        style="display: none"
+                        role="alert"
+                    >
+                        <div class="vb-t" id="vbTitle"></div>
+                        <div class="vb-s" id="vbSub"></div>
+                    </div>
+
+                    <!-- KOLOM KIRI: Pencarian & Riwayat -->
+                    <div class="col-left">
+                        <div class="glass search">
+                            <div class="search-input-wrap">
+                                <input
+                                    id="q"
+                                    placeholder="Search / Paste link..."
+                                    autocomplete="off"
+                                />
+                                <button
+                                    class="btn clear"
+                                    id="clearBtn"
+                                    title="Hapus teks"
+                                    aria-label="Hapus teks"
+                                ></button>
+                            </div>
+                            <button
+                                class="btn se"
+                                id="seBtn"
+                                title="Cari"
+                                aria-label="Cari"
+                            ></button>
+                        </div>
+                        <div
+                            class="chips"
+                            id="chips"
+                            style="display: none"
+                        ></div>
+                        <div id="results"></div>
+
+                        <section
+                            class="glass rbox"
+                            id="recent"
+                            style="display: none"
+                        >
+                            <div class="qh">
+                                <h3>Terakhir diputar</h3>
+                                <button class="link" id="recentClear">
+                                    Hapus riwayat
+                                </button>
+                            </div>
+                            <div id="recentList"></div>
+                            <button class="link more" id="recentMore"></button>
+                        </section>
+                    </div>
+
+                    <!-- KOLOM KANAN: Antrian -->
+                    <div class="col-right">
+                        <section class="glass qbox">
+                            <div class="qh">
+                                <h3>Queue</h3>
+                                <small id="qcount"></small>
+                            </div>
+                            <div
+                                class="q-status"
+                                id="qstatus"
+                                style="display: none"
+                            ></div>
+                            <p class="hint" id="qhint" style="display: none">
+                                Tarik lagu untuk mengubah urutan
+                            </p>
+                            <div id="queue"></div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Player bar di bawah -->
+        <div class="dock" id="dock">
+            <div class="d-info">
+                <img id="cover" alt="" style="display: none" />
+                <div class="ph" id="coverPh">🎵</div>
+                <div class="meta">
+                    <div class="t" id="title">-</div>
+                    <div class="a" id="author">-</div>
+                    <div class="a" id="reqby" style="display: none"></div>
+                </div>
+            </div>
+
+            <div class="d-mid">
+                <div class="prog">
+                    <span id="cur">0:00</span>
+                    <div
+                        class="pbar"
+                        id="pbar"
+                        role="slider"
+                        tabindex="0"
+                        aria-label="Posisi lagu"
+                        aria-valuemin="0"
+                    >
+                        <div class="trk">
+                            <div class="fill" id="fill"></div>
+                        </div>
+                        <div class="tip" id="tip">0:00</div>
+                    </div>
+                    <span id="tot">0:00</span>
+                </div>
+                <div class="btns">
+                    <div class="btns-side left">
+                        <button
+                            class="ic"
+                            id="auto"
+                            title="Autoplay"
+                            aria-pressed="false"
+                        ></button>
+                        <button
+                            class="ic"
+                            id="loop"
+                            title="Loop"
+                            aria-pressed="false"
+                        ></button>
+                    </div>
+                    <button
+                        class="pp"
+                        id="pp"
+                        title="Jeda / Putar (Spasi)"
+                    ></button>
+                    <div class="btns-side right">
+                        <button class="ic" id="skip" title="Lewati"></button>
+                        <button
+                            class="ic dj"
+                            id="dj"
+                            title="DJ"
+                            aria-pressed="false"
+                            disabled
+                        ></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-side">
+                <div class="djbox" id="djbox">
+                    <img id="djImg" alt="" />
+                    <div class="n">
+                        <small id="djSub">DJ</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="toasts"></div>
+
+        <script>
+            const $ = (id) => document.getElementById(id);
+
+            // Helper untuk getar di HP (mencegah warning di PC)
+            const vibrate = (ms) => {
+                try {
+                    if (
+                        "vibrate" in navigator &&
+                        window.matchMedia("(pointer: coarse)").matches
+                    ) {
+                        navigator.vibrate(ms);
+                    }
+                } catch {}
+            };
+            const esc = (s) =>
+                String(s ?? "").replace(
+                    /[&<>"']/g,
+                    (c) =>
+                        ({
+                            "&": "&amp;",
+                            "<": "&lt;",
+                            ">": "&gt;",
+                            '"': "&quot;",
+                            "'": "&#39;",
+                        })[c],
+                );
+            const fmt = (ms) => {
+                if (!ms || ms < 0 || !isFinite(ms)) return "0:00";
+                const s = Math.floor(ms / 1000);
+                return (
+                    Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0")
+                );
+            };
+            const SRC = {
+                music: "MUSIK",
+                youtube: "YOUTUBE",
+                spotify: "SPOTIFY",
+                lyric: "LIRIK",
+            };
+            const LOOPN = ["Loop mati", "Ulangi 1 lagu", "Ulangi antrian"];
+
+            // ================= IKON =================
+            const S = (p, w = 22) =>
+                `<svg viewBox="0 0 24 24" width="${w}" height="${w}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+            const F = (p, w = 22) =>
+                `<svg viewBox="0 0 24 24" width="${w}" height="${w}" fill="currentColor" aria-hidden="true">${p}</svg>`;
+            const REPEAT =
+                '<path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/>';
+            const ICON = {
+                play: F(
+                    '<path d="M7 4.5v15a1 1 0 0 0 1.5.86l12-7.5a1 1 0 0 0 0-1.72l-12-7.5A1 1 0 0 0 7 4.5z"/>',
+                    20,
+                ),
+                pause: F(
+                    '<rect x="6" y="4" width="4.5" height="16" rx="1.2"/><rect x="13.5" y="4" width="4.5" height="16" rx="1.2"/>',
+                    20,
+                ),
+                skip: F(
+                    '<path d="M5 4.5v15a1 1 0 0 0 1.5.86l10-7.5a1 1 0 0 0 0-1.72l-10-7.5A1 1 0 0 0 5 4.5z"/><rect x="18" y="4" width="2.6" height="16" rx="1.1"/>',
+                ),
+                auto: S(
+                    '<path d="M18.18 8c5.1 0 5.1 8 0 8-5.1 0-7.14-8-12.74-8-4.59 0-4.59 8 0 8 5.6 0 7.64-8 12.74-8z"/>',
+                ),
+                loop: [
+                    S(REPEAT),
+                    S(REPEAT + '<path d="M11 10h1v4"/>'),
+                    S(REPEAT),
+                ],
+                plus: S('<path d="M12 5v14M5 12h14"/>', 16),
+                grip: F(
+                    '<circle cx="9" cy="5" r="1.6"/><circle cx="15" cy="5" r="1.6"/><circle cx="9" cy="12" r="1.6"/><circle cx="15" cy="12" r="1.6"/><circle cx="9" cy="19" r="1.6"/><circle cx="15" cy="19" r="1.6"/>',
+                    18,
+                ),
+                search: S(
+                    '<circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>',
+                    20,
+                ),
+                clear: S('<path d="M18 6 6 18M6 6l12 12"/>', 18),
+                // 👇 Ikon X diganti menjadi Ikon Tempat Sampah (Trash)
+                x: S(
+                    '<path d="M3 6h18"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/>',
+                    16,
+                ),
+            };
+            $("skip").innerHTML = ICON.skip;
+            $("auto").innerHTML = ICON.auto;
+            $("seBtn").innerHTML = ICON.search;
+            $("clearBtn").innerHTML = ICON.clear;
+
+            async function api(url, body, method) {
+                const r = await fetch(
+                    url,
+                    body === undefined
+                        ? {}
+                        : {
+                              method: method || "POST",
+                              headers: { "Content-Type": "application/json" },
+                              body: JSON.stringify(body),
+                          },
+                );
+                if (r.status === 401) return location.reload();
+                const d = await r.json().catch(() => ({}));
+                if (!r.ok)
+                    throw Object.assign(
+                        new Error(d.error || "Terjadi kesalahan"),
+                        {
+                            status: r.status,
+                        },
+                    );
+                return d;
+            }
+            function toast(msg, type) {
+                const t = document.createElement("div");
+                // type bisa berupa: true (error merah), "warn" (kuning), atau undefined (biasa)
+                t.className =
+                    "toast" +
+                    (type === true ? " err" : type === "warn" ? " warn" : "");
+                t.textContent = msg;
+                $("toasts").appendChild(t);
+
+                // batasi tumpukan: tidak boleh naik melewati setengah layar (yang paling lama dibuang)
+                const box = $("toasts");
+                while (
+                    box.children.length > 1 &&
+                    box.getBoundingClientRect().top < window.innerHeight / 2
+                )
+                    box.firstElementChild.remove();
+
+                // 👇 Trigger transisi slide up setelah elemen masuk ke DOM
+                requestAnimationFrame(() => {
+                    t.classList.add("show");
+                });
+
+                // 👇 Hilangkan perlahan setelah 3.2 detik, lalu hapus dari DOM
+                setTimeout(() => {
+                    t.classList.remove("show");
+                    setTimeout(() => t.remove(), 350); // Tunggu transisi selesai
+                }, 3200);
+            }
+
+            // ================= STATE =================
+            let track = null,
+                dur = 0,
+                paused = false,
+                loopMode = 0,
+                autoplay = false;
+            let anchor = { pos: 0, t: performance.now() }; // posisi lagu saat anchor dibuat
+            let barColor = null,
+                uid = "anon",
+                recent = [],
+                recentOpen = false;
+            let scrubbing = false,
+                scrubPos = 0,
+                holdUntil = 0,
+                queueSig = null,
+                qData = [],
+                dragging = false,
+                pendingDrag = false;
+
+            const now = () =>
+                paused
+                    ? anchor.pos
+                    : Math.min(
+                          dur || Infinity,
+                          anchor.pos + performance.now() - anchor.t,
+                      );
+            const setAnchor = (pos) => {
+                anchor = { pos, t: performance.now() };
+            };
+
+            // ================= FAVICON (logo bot) =================
+            // Isi BOT_LOGO dengan URL/path logo botmu, ATAU kirim `botAvatar` dari /api/me di server
+            // (otomatis dipakai). Kalau dua-duanya kosong, dipakai logo Discord bawaan di <head>.
+            const BOT_LOGO = "";
+            let customIcon = false;
+            function setFavicon(url) {
+                if (!url) return;
+                customIcon = true;
+                $("favicon").removeAttribute("type");
+                $("favicon").href = url;
+                $("touchicon").href = url;
+            }
+            setFavicon(BOT_LOGO);
+            (() => {
+                const im = new Image();
+                im.onload = () => {
+                    try {
+                        const c = document.createElement("canvas");
+                        c.width = c.height = 180;
+                        c.getContext("2d").drawImage(im, 0, 0, 180, 180);
+                        if (!customIcon)
+                            $("touchicon").href = c.toDataURL("image/png");
+                    } catch {}
+                };
+                im.src = $("favicon").href;
+            })();
+
+            // ================= INIT =================
+            (async () => {
+                const me = await fetch("/api/me").then((r) => r.json());
+                setFavicon(me.botAvatar || (me.bot && me.bot.avatar) || "");
+                if (!me.loggedIn) {
+                    $("userBox").innerHTML =
+                        '<a class="btn" href="/auth/discord">Login dengan Discord</a>';
+                    return;
+                }
+                $("userBox").innerHTML =
+                    `<div class="user"><img src="${esc(me.avatar)}" alt=""><span>${esc(me.username)}</span><a class="btn red" href="/auth/logout">Logout</a></div>`;
+                $("main").style.display = "block";
+                uid = me.id || "anon";
+                loadRecent();
+                $("dock").classList.add("show");
+                document.body.classList.add("has-dock");
+                setIdle("Menghubungkan ke bot…");
+                loadQueue();
+                setInterval(loadQueue, 1500);
+                loadDJ();
+                setInterval(loadDJ, 3000);
+                requestAnimationFrame(frame);
+            })();
+
+            // ================= WARNA PROGRESS BAR (dari cover art) =================
+            function tint(hex) {
+                const m = /^#?([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i.exec(
+                    hex || "",
+                );
+                if (!m) return "#fff";
+                const [r, g, b] = m.slice(1).map((v) => parseInt(v, 16) / 255);
+                const mx = Math.max(r, g, b),
+                    mn = Math.min(r, g, b);
+                let h = 0,
+                    s = 0,
+                    l = (mx + mn) / 2;
+                if (mx !== mn) {
+                    const d = mx - mn;
+                    s = l > 0.5 ? d / (2 - mx - mn) : d / (mx + mn);
+                    h =
+                        (mx === r
+                            ? (g - b) / d + (g < b ? 6 : 0)
+                            : mx === g
+                              ? (b - r) / d + 2
+                              : (r - g) / d + 4) * 60;
+                }
+                l = Math.max(0.62, Math.min(0.8, l));
+                s = Math.min(s, 0.85); // terang cukup supaya jelas di atas bar gelap
+                return `hsl(${Math.round(h)} ${Math.round(s * 100)}% ${Math.round(l * 100)}%)`;
+            }
+            let reqShown = null;
+            function setBarColor(hex) {
+                if (hex === barColor) return;
+                barColor = hex;
+                $("dock").style.setProperty("--np", hex ? tint(hex) : "#fff");
+            }
+
+            // ================= PROGRESS BAR =================
+            function frame() {
+                if (track) {
+                    const p = scrubbing ? scrubPos : now();
+                    $("fill").style.width =
+                        (dur ? Math.min(100, (p / dur) * 100) : 0) + "%";
+                    $("cur").textContent = fmt(p);
+                    $("pbar").setAttribute(
+                        "aria-valuenow",
+                        Math.floor(p / 1000),
+                    );
+                }
+                requestAnimationFrame(frame);
+            }
+            const bar = $("pbar");
+            const posFrom = (e) => {
+                const r = bar.getBoundingClientRect();
+                return (
+                    Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)) *
+                    dur
+                );
+            };
+            const showTip = (e) => {
+                const r = bar.getBoundingClientRect();
+                const x = Math.max(0, Math.min(r.width, e.clientX - r.left));
+                $("tip").style.left = x + "px";
+                $("tip").textContent = fmt((x / r.width) * dur);
+            };
+            bar.addEventListener("pointerdown", (e) => {
+                if (!dur) return;
+                bar.setPointerCapture(e.pointerId);
+                scrubbing = true;
+                bar.classList.add("drag");
+                scrubPos = posFrom(e);
+                showTip(e);
+            });
+            bar.addEventListener("pointermove", (e) => {
+                showTip(e);
+                if (scrubbing) scrubPos = posFrom(e);
+            });
+            bar.addEventListener("pointerup", (e) => {
+                if (!scrubbing) return;
+                scrubbing = false;
+                bar.classList.remove("drag");
+                seek(posFrom(e));
+            });
+            bar.addEventListener("pointercancel", () => {
+                scrubbing = false;
+                bar.classList.remove("drag");
+            });
+            bar.addEventListener("keydown", (e) => {
+                const d = { ArrowRight: 5000, ArrowLeft: -5000 }[e.key];
+                if (!d || !dur) return;
+                e.preventDefault();
+                seek(Math.max(0, Math.min(dur - 1000, now() + d)));
+            });
+            function seek(ms) {
+                ms = Math.floor(Math.max(0, Math.min(ms, dur - 1000)));
+                setAnchor(ms);
+                holdUntil = Date.now() + 3000;
+                api("/api/control", { action: "seek", value: ms }).catch(
+                    (e) => {
+                        toast(e.message, 1);
+                        holdUntil = 0;
+                        loadQueue();
+                    },
+                );
+            }
+
+            // ================= KONTROL: jeda, lewati, autoplay, loop =================
+            const ctl = (action, value) =>
+                api("/api/control", { action, value });
+
+            function setPaused(p) {
+                paused = p;
+                $("pp").innerHTML = p ? ICON.play : ICON.pause;
+                $("pp").setAttribute("aria-label", p ? "Putar" : "Jeda");
+                $("dock").classList.toggle("playing", !p);
+            }
+            function drawLoop() {
+                const b = $("loop");
+                if (b.dataset.m !== String(loopMode)) {
+                    b.dataset.m = loopMode;
+                    b.innerHTML = ICON.loop[loopMode];
+                }
+                b.classList.toggle("on", loopMode > 0);
+                b.title = LOOPN[loopMode];
+                b.setAttribute("aria-pressed", loopMode > 0);
+            }
+            function drawAuto() {
+                const b = $("auto");
+                b.classList.toggle("on", autoplay);
+                b.setAttribute("aria-pressed", autoplay);
+                b.title = autoplay ? "Autoplay nyala" : "Autoplay mati";
+            }
+            setPaused(false);
+            drawLoop();
+            drawAuto();
+
+            // Kondisi "tidak ada lagu": bar tetap tampil tapi tombol nonaktif
+            function setIdle(msg) {
+                track = null;
+                dur = 0;
+                setPaused(true);
+                $("dock").classList.add("idle");
+                ["pp", "skip", "auto", "loop"].forEach(
+                    (id) => ($(id).disabled = true),
+                );
+                $("title").textContent = "Belum ada lagu yang diputar";
+                $("author").textContent =
+                    msg || "Cari lagu di atas lalu tekan Putar";
+                $("reqby").style.display = "none";
+                reqShown = null;
+                $("cover").style.display = "none";
+                $("coverPh").style.display = "";
+                $("cur").textContent = "0:00";
+                $("tot").textContent = "0:00";
+                $("fill").style.width = "0%";
+                $("bg").style.backgroundImage = "none";
+                setBarColor(null);
+            }
+            function showStatus(msg) {
+                const b = $("qstatus");
+                b.textContent = msg || "";
+                b.style.display = msg ? "block" : "none";
+            }
+            const friendly = (m) =>
+                /voice channel/i.test(m || "")
+                    ? "Kamu belum ada di voice channel. Masuk ke voice channel Discord dulu supaya dashboard bisa mengontrol bot."
+                    : m || "Tidak bisa terhubung ke bot.";
+
+            $("pp").onclick = () => {
+                setAnchor(now());
+                setPaused(!paused);
+                holdUntil = Date.now() + 2500;
+                ctl(paused ? "pause" : "resume").catch((e) => {
+                    toast(e.message, 1);
+                    holdUntil = 0;
+                    loadQueue();
+                });
+            };
+            $("skip").onclick = () => {
+                holdUntil = Date.now() + 2500;
+                if (paused) setPaused(false); // server akan auto-resume saat skip
+                api("/api/skip", {})
+                    .then(() => {
+                        queueSig = null;
+                        setTimeout(loadQueue, 400);
+                    })
+                    .catch((e) => toast(e.message, 1));
+            };
+            $("loop").onclick = () => {
+                const prev = loopMode;
+                loopMode = (loopMode + 1) % 3;
+                drawLoop();
+                holdUntil = Date.now() + 2500;
+                toast(LOOPN[loopMode]);
+                ctl("loop", loopMode).catch((e) => {
+                    loopMode = prev;
+                    drawLoop();
+                    toast(e.message, 1);
+                });
+            };
+            $("auto").onclick = () => {
+                autoplay = !autoplay;
+                drawAuto();
+                holdUntil = Date.now() + 2500;
+                if (!qData.length) renderQueue();
+                toast(
+                    autoplay
+                        ? "Autoplay nyala — lagu mirip akan ditambahkan otomatis"
+                        : "Autoplay mati",
+                );
+                ctl("autoplay", autoplay)
+                    .then(() => {
+                        queueSig = null;
+                        setTimeout(loadQueue, 1200);
+                    })
+                    .catch((e) => {
+                        autoplay = !autoplay;
+                        drawAuto();
+                        toast(e.message, 1);
+                    });
+            };
+
+            document.addEventListener("keydown", (e) => {
+                const typing = /INPUT|TEXTAREA/.test(
+                    document.activeElement.tagName,
+                );
+                if (e.key === "/" && !typing) {
+                    e.preventDefault();
+                    $("q").focus();
+                }
+                if (
+                    e.code === "Space" &&
+                    !typing &&
+                    track &&
+                    document.activeElement !== bar &&
+                    !/BUTTON/.test(document.activeElement.tagName)
+                ) {
+                    e.preventDefault();
+                    $("pp").click();
+                }
+            });
+
+            // ================= DJ =================
+            // Ikon CDJ: body deck + jog wheel besar + layar kecil + tombol
+            const CDJ = S(
+                // Bodi deck
+                '<rect x="1.5" y="1.5" width="21" height="21" rx="3" stroke-width="1.6"/>' +
+                    // Layar
+                    '<rect x="4" y="3.8" width="16" height="4.6" rx="1" stroke-width="1.2"/>' +
+                    // Waveform di layar
+                    '<path d="M6 5.9v.4M8 5.2v1.8M10 4.9v2.4M12 5.4v1.4M14 4.9v2.4M16 5.2v1.8M18 5.9v.4" stroke-width="1"/>' +
+                    // Jog wheel
+                    '<circle cx="13" cy="15.3" r="5.3" stroke-width="1.6"/>' +
+                    '<circle cx="13" cy="15.3" r="3.2" stroke-width=".8"/>' +
+                    '<circle cx="13" cy="15.3" r=".9" fill="currentColor" stroke="none"/>' +
+                    // Penanda putar jog
+                    '<path d="M13 10.9v1.6" stroke-width="1.6"/>' +
+                    // Tombol Cue + Play
+                    '<circle cx="4.9" cy="12.3" r="1.3" stroke-width="1.2"/>' +
+                    '<path d="M3.7 15.4v3.4l2.9-1.7z" fill="currentColor" stroke-width="1"/>' +
+                    // Fader tempo
+                    '<path d="M20.5 10.5v10" stroke-width="1"/>' +
+                    '<rect x="19.4" y="13.8" width="2.2" height="3.2" rx=".5" fill="currentColor" stroke-width=".6"/>',
+            );
+
+            let djState = {
+                supported: false,
+                dj: null,
+                isDJ: false,
+                canClaim: false,
+                hasTrack: false,
+                access: {
+                    locked: false,
+                    request: true,
+                    control: true,
+                    queue: true,
+                },
+            };
+
+            function drawDJ() {
+                const s = djState,
+                    d = s.dj,
+                    b = $("dj");
+                const name = d ? d.displayName || d.username : "";
+
+                // isi tombol: foto DJ kalau ada, kalau tidak ikon headphone
+                const key = d && d.avatar ? d.avatar : "icon";
+                if (b.dataset.k !== key) {
+                    b.dataset.k = key;
+                    b.innerHTML =
+                        d && d.avatar
+                            ? `<img src="${esc(d.avatar)}" alt="">`
+                            : CDJ;
+                }
+                b.disabled = !s.supported;
+                const ac = s.access || {};
+                document.body.classList.toggle(
+                    "lock-request",
+                    ac.request === false,
+                );
+                document.body.classList.toggle(
+                    "lock-control",
+                    ac.control === false,
+                );
+                document.body.classList.toggle(
+                    "lock-queue",
+                    ac.queue === false,
+                );
+                b.classList.toggle("mine", s.isDJ);
+                b.classList.toggle("can", s.canClaim);
+                b.setAttribute("aria-pressed", s.isDJ);
+                b.title = !s.supported
+                    ? "Fitur DJ aktif setelah bot di-restart"
+                    : s.isDJ
+                      ? "Lepas DJ"
+                      : d
+                        ? `DJ saat ini: ${name}`
+                        : s.canClaim
+                          ? "Ambil DJ"
+                          : s.hasTrack
+                            ? "Cuma peminta lagu yang sedang diputar yang bisa ambil DJ"
+                            : "Putar lagu dulu untuk ambil DJ";
+
+                // profil DJ di sisi kanan bar
+                $("djbox").classList.toggle("show", !!d);
+                if (d) {
+                    if ($("djImg").getAttribute("src") !== (d.avatar || ""))
+                        $("djImg").src = d.avatar || "";
+                    // $("djName").textContent = name; // dihilangkan
+                    $("djSub").textContent = `DJ · @${d.username}`;
+                }
+            }
+
+            async function loadDJ() {
+                try {
+                    const d = await api("/api/dj");
+                    if (!d) return;
+                    djState = {
+                        supported: d.supported !== false,
+                        dj: d.dj || null,
+                        isDJ: !!d.isDJ,
+                        canClaim: !!d.canClaim,
+                        hasTrack: !!d.hasTrack,
+                        access: d.access || {
+                            locked: false,
+                            request: true,
+                            control: true,
+                            queue: true,
+                        },
+                    };
+                } catch (e) {
+                    return;
+                }
+                drawDJ();
+            }
+
+            $("dj").onclick = async () => {
+                const s = djState;
+                try {
+                    if (s.isDJ) {
+                        await api("/api/dj/release", {});
+                        toast("DJ dilepas");
+                    } else if (s.canClaim) {
+                        await api("/api/dj/claim", {});
+                        toast("Kamu sekarang jadi DJ 🎧");
+                    } else if (s.dj) {
+                        toast(
+                            `DJ saat ini: ${s.dj.displayName || s.dj.username}`,
+                            "warn",
+                        );
+                        return;
+                    } else {
+                        toast(
+                            s.hasTrack
+                                ? "Cuma peminta lagu yang sedang diputar yang bisa ambil DJ."
+                                : "Putar lagu dulu untuk ambil DJ.",
+                            "warn",
+                        );
+                        return;
+                    }
+                } catch (e) {
+                    toast(e.message, true);
+                }
+                loadDJ();
+            };
+            drawDJ();
+
+            // ================= SYNC DENGAN BOT =================
+            // Peringatan di atas halaman: beda voice / belum masuk voice
+            function applyVoiceLock(vm, noVoice) {
+                const mode = vm ? "diff" : noVoice ? "none" : "";
+                document.body.classList.toggle("lock-voice", !!mode);
+                $("voiceBanner").style.display = mode ? "" : "none";
+
+                // Sembunyikan control bar jika terkunci (beda voice / belum masuk voice)
+                if (mode) {
+                    $("dock").classList.remove("show");
+                    document.body.classList.remove("has-dock");
+                } else {
+                    $("dock").classList.add("show");
+                    document.body.classList.add("has-dock");
+                }
+
+                const sub = $("vbSub");
+                sub.textContent = "";
+                if (mode === "diff") {
+                    $("vbTitle").textContent = "Kamu beda voice dengan bot";
+                    const b = document.createElement("b");
+                    b.textContent = vm.name;
+                    sub.append("Masuk ke 🔊 ", b, " untuk mengontrol musik.");
+                } else if (mode === "none") {
+                    $("vbTitle").textContent =
+                        "Kamu belum ada di voice channel";
+                    sub.textContent =
+                        "Masuk ke voice channel Discord dulu supaya dashboard bisa mengontrol bot.";
+                }
+            }
+
+            async function loadQueue() {
+                if (dragging || pendingDrag) return;
+                const t0 = performance.now();
+                let d;
+                try {
+                    d = await api("/api/queue");
+                } catch (e) {
+                    showStatus(friendly(e.message));
+                    if (!track) {
+                        setIdle(friendly(e.message));
+                        if (queueSig === null) {
+                            qData = [];
+                            queueSig = "";
+                            renderQueue();
+                        }
+                    }
+                    return;
+                }
+                if (!d || dragging || pendingDrag) return;
+                // cek ulang setelah await (user bisa mulai drag selama fetch)
+                if (dragging || pendingDrag) return;
+                const p = d.playing;
+                showStatus(
+                    d.error && !/voice channel/i.test(d.error)
+                        ? friendly(d.error)
+                        : "",
+                );
+                const noVoice = !!d.error && /voice channel/i.test(d.error);
+                applyVoiceLock(d.voiceMismatch || null, noVoice);
+                if (p) {
+                    $("dock").classList.remove("idle");
+                    setBarColor(p.color || null);
+                    ["pp", "skip", "auto", "loop"].forEach(
+                        (id) => ($(id).disabled = false),
+                    );
+                    const changed =
+                        !track || track.id !== p.id || track.title !== p.title;
+                    track = p;
+                    dur = p.durationMS;
+                    $("tot").textContent = fmt(dur);
+                    $("pbar").setAttribute(
+                        "aria-valuemax",
+                        Math.floor(dur / 1000),
+                    );
+                    if (changed) {
+                        $("cover").src = p.thumbnail || "";
+                        $("cover").style.display = p.thumbnail ? "" : "none";
+                        $("coverPh").style.display = p.thumbnail ? "none" : "";
+                        $("title").textContent = p.title;
+                        $("author").textContent = p.author;
+                        $("bg").style.backgroundImage = p.thumbnail
+                            ? `url("${p.thumbnail}")`
+                            : "none";
+                        document.title = "▶ " + p.title;
+                        setAnchor(p.progress);
+                        holdUntil = 0;
+                        pushRecent(p);
+                    }
+                    // nama requester ikut realtime (nickname berubah → langsung ganti)
+                    const isAuto = !p.requestedBy;
+                    const reqKey = isAuto ? "AUTO" : p.requestedBy;
+                    if (reqKey !== reqShown) {
+                        reqShown = reqKey;
+                        const rb = $("reqby");
+                        rb.textContent = "";
+                        if (isAuto) {
+                            rb.append("Autoplay");
+                        } else {
+                            rb.append("Requested by  ");
+                            const tg = document.createElement("span");
+                            tg.className = "tag req";
+                            tg.textContent = "@" + p.requestedBy;
+                            rb.append(tg);
+                        }
+                        rb.style.display = "";
+                    }
+                    if (Date.now() > holdUntil && !scrubbing) {
+                        const wasPaused = paused;
+                        setPaused(p.isPaused);
+                        loopMode = d.loopMode > 2 ? 0 : d.loopMode || 0;
+                        drawLoop();
+                        autoplay = !!d.autoplay;
+                        drawAuto();
+                        // saat pause tidak perlu kompensasi latency
+                        const srv = p.isPaused
+                            ? p.progress
+                            : p.progress + (performance.now() - t0) / 2;
+                        // status pause berubah -> ikut server; selain itu koreksi hanya jika melenceng > 1 dtk
+                        if (
+                            wasPaused !== p.isPaused ||
+                            Math.abs(srv - now()) > 1000
+                        )
+                            setAnchor(srv);
+                    }
+                } else {
+                    setIdle(d.error ? friendly(d.error) : undefined);
+                    document.title = "Discord Music Remote";
+                }
+
+                const sig = (d.queue || [])
+                    .map((t) => t.id + (t.requestedBy || ""))
+                    .join("|");
+                if (sig !== queueSig) {
+                    queueSig = sig;
+                    qData = d.queue || [];
+                    renderQueue();
+                }
+            }
+
+            // ================= ANTRIAN + DRAG & DROP =================
+            const qList = $("queue");
+
+            function renderQueue() {
+                $("qcount").textContent = qData.length
+                    ? qData.length + " lagu"
+                    : "";
+                $("qhint").style.display = qData.length > 1 ? "block" : "none";
+                if (!qData.length) {
+                    qList.innerHTML = `<div class="empty">${autoplay ? "Antrian kosong — autoplay akan menyiapkan lagu berikutnya 🎶" : "Antrian kosong..."}</div>`;
+                    return;
+                }
+                qList.innerHTML = qData
+                    .map(
+                        (t, i) => `
+    <div class="row q-row" data-id="${esc(t.id)}" data-color="${esc(t.color || "")}" tabindex="0" aria-label="${esc(t.title)}, urutan ${i + 1}. Alt + panah atas atau bawah untuk memindahkan">
+      <span class="grip" title="Tarik untuk mengubah urutan">${ICON.grip}</span>
+      <span class="idx">${i + 1}</span>
+      ${t.thumbnail ? `<img src="${esc(t.thumbnail)}" alt="" draggable="false">` : '<div class="ph">🎵</div>'}
+      <div class="meta"><div class="t">${esc(t.title)}</div><div class="a">${esc(t.author)}</div><div class="a qtags">${t.auto ? '<span class="tag auto">AUTO</span>' : ""}<span class="tag ${t.ytSource ? "youtube" : "music"}">${t.ytSource ? SRC.youtube : SRC.music}</span>${t.requestedBy ? `<span class="tag req">@${esc(t.requestedBy)}</span>` : ""}</div></div>
+      <span class="dur">${esc(t.duration || "")}</span>
+      <div class="acts">
+        <button class="ib" data-a="jump" title="Putar sekarang">▶</button>
+        <button class="ib x" data-a="rm" title="Hapus">${ICON.x}</button>
+      </div>
+    </div>`,
+                    )
+                    .join("");
+                // siapkan warna cover untuk drag & terapkan ke badge nama requester
+                const reqBadges = {};
+                qList.querySelectorAll(".tag.req").forEach((b) => {
+                    const id = b.closest(".q-row").dataset.id;
+                    if (id) reqBadges[id] = b;
+                });
+                qData.forEach((t) => {
+                    if (t.thumbnail) {
+                        const applyColor = (hex) => {
+                            if (!hex) return;
+                            const badge = reqBadges[t.id];
+                            if (badge) {
+                                badge.style.setProperty(
+                                    "--req-color",
+                                    `color-mix(in srgb, ${tint(hex)} 35%, #fff)`,
+                                );
+                                badge.style.setProperty(
+                                    "--req-bg",
+                                    hexA(hex, 0.22),
+                                );
+                            }
+                        };
+                        const cached = _colorCache.get(t.thumbnail);
+                        if (cached) applyColor(cached);
+                        else getCoverColor(t.thumbnail).then(applyColor);
+                    }
+                });
+            }
+
+            qList.addEventListener("click", async (e) => {
+                const b = e.target.closest("[data-a]");
+                if (!b) return;
+                const row = b.closest(".q-row"),
+                    i = [...qList.children].indexOf(row),
+                    id = row.dataset.id;
+                try {
+                    if (b.dataset.a === "jump" && paused) {
+                        setPaused(false); // server akan auto-resume saat jump
+                        holdUntil = Date.now() + 2500;
+                    }
+                    await api(
+                        b.dataset.a === "jump"
+                            ? "/api/queue/jump"
+                            : "/api/queue/remove",
+                        { index: i, id },
+                    );
+                    if (b.dataset.a === "rm")
+                        toast("Lagu dihapus dari antrian");
+                } catch (err) {
+                    toast(err.message, 1);
+                }
+                queueSig = null;
+                loadQueue();
+            });
+
+            // FLIP: baris lain meluncur halus ke posisi barunya saat urutan berubah
+            // Pakai Web Animations (transform saja, jalan di GPU) -> ringan & tidak saling bentrok
+            function reflow(mutate) {
+                const kids = [...qList.children].filter(
+                        (k) => !k.classList.contains("dragging"),
+                    ),
+                    first = new Map(
+                        kids.map((k) => [k, k.getBoundingClientRect().top]),
+                    );
+                mutate();
+                for (const k of kids)
+                    k.getAnimations().forEach((an) => an.cancel());
+                for (const k of kids) {
+                    const dy = first.get(k) - k.getBoundingClientRect().top;
+                    if (!dy) continue;
+                    k.animate(
+                        [
+                            { transform: `translateY(${dy}px)` },
+                            { transform: "translateY(0)" },
+                        ],
+                        {
+                            duration: 280,
+                            easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+                        },
+                    );
+                }
+            }
+            const renumber = () =>
+                [...qList.children].forEach((c, i) => {
+                    const n = c.querySelector(".idx");
+                    if (n) n.textContent = i + 1;
+                });
+
+            async function commitMove(from, to, id) {
+                const snapshot = qData.slice();
+                const [m] = qData.splice(from, 1);
+                qData.splice(to, 0, m);
+                queueSig = qData.map((t) => t.id).join("|");
+                try {
+                    await api("/api/queue/move", { from, to, id });
+                    toast("Urutan diperbarui");
+                } catch (err) {
+                    toast(err.message, 1);
+                    // rollback ke snapshot supaya UI tidak nyangkut di urutan palsu
+                    qData = snapshot;
+                    queueSig = null;
+                    renderQueue();
+                }
+            }
+
+            // ================= EKSTRAK WARNA DOMINAN DARI COVER =================
+            // Pakai Image terpisah dengan crossOrigin="anonymous" supaya canvas tidak "tainted"
+            // (sebelumnya getImageData gagal diam-diam, jadi warna tidak pernah terpakai).
+            const _colorCache = new Map(); // url -> hex | null
+            const _colorPending = new Map();
+
+            function extractColor(img) {
+                try {
+                    const size = 40;
+                    const c = document.createElement("canvas");
+                    c.width = c.height = size;
+                    const ctx = c.getContext("2d", {
+                        willReadFrequently: true,
+                    });
+                    ctx.drawImage(img, 0, 0, size, size);
+                    const data = ctx.getImageData(0, 0, size, size).data;
+                    const buckets = {};
+                    let aR = 0,
+                        aG = 0,
+                        aB = 0,
+                        aN = 0;
+                    for (let i = 0; i < data.length; i += 4) {
+                        if (data[i + 3] < 128) continue;
+                        const r = data[i],
+                            g = data[i + 1],
+                            b = data[i + 2];
+                        aR += r;
+                        aG += g;
+                        aB += b;
+                        aN++;
+                        const mx = Math.max(r, g, b),
+                            mn = Math.min(r, g, b);
+                        const lum = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+                        if (lum < 28 || lum > 235) continue; // buang hitam/putih (termasuk bar hitam thumbnail)
+                        const sat = mx ? (mx - mn) / mx : 0;
+                        const key = `${Math.round(r / 24) * 24},${Math.round(g / 24) * 24},${Math.round(b / 24) * 24}`;
+                        const k =
+                            buckets[key] ||
+                            (buckets[key] = { n: 0, s: 0, r: 0, g: 0, b: 0 });
+                        // warna yang lebih "hidup" (saturasi tinggi) diberi bobot lebih
+                        const w = 0.25 + sat;
+                        k.n += w;
+                        k.s += sat;
+                        k.r += r * w;
+                        k.g += g * w;
+                        k.b += b * w;
+                    }
+                    let best = null;
+                    for (const k of Object.values(buckets))
+                        if (!best || k.n > best.n) best = k;
+                    if (!best) {
+                        if (!aN) return null;
+                        const h = (v) =>
+                            Math.round(v / aN)
+                                .toString(16)
+                                .padStart(2, "0");
+                        return "#" + h(aR) + h(aG) + h(aB);
+                    }
+                    const to = (v) =>
+                        Math.round(v / best.n)
+                            .toString(16)
+                            .padStart(2, "0");
+                    return "#" + to(best.r) + to(best.g) + to(best.b);
+                } catch {
+                    return null;
+                }
+            }
+
+            async function fetchCoverColor(url) {
+                // Selalu gunakan proxy lokal agar terhindar dari blokir CORS
+                try {
+                    const proxyUrl =
+                        "/api/proxy-image?url=" + encodeURIComponent(url);
+                    const r = await fetch(proxyUrl);
+                    if (!r.ok) throw new Error("Proxy failed");
+
+                    const bmp = await createImageBitmap(await r.blob());
+                    return extractColor(bmp);
+                } catch {
+                    return null; // Jika gagal (misal gambar diblokir), abaikan
+                }
+            }
+
+            function getCoverColor(url) {
+                if (!url) return Promise.resolve(null);
+                if (_colorCache.get(url))
+                    return Promise.resolve(_colorCache.get(url));
+                if (_colorPending.has(url)) return _colorPending.get(url);
+                const p = fetchCoverColor(url).then((hex) => {
+                    if (hex) _colorCache.set(url, hex); // yang gagal tidak di-cache, boleh dicoba lagi
+                    _colorPending.delete(url);
+                    return hex;
+                });
+                _colorPending.set(url, p);
+                return p;
+            }
+
+            function hexA(hex, alpha) {
+                const m = /^#?([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i.exec(
+                    hex || "",
+                );
+                if (!m) return `rgba(88,101,242,${alpha})`;
+                const [r, g, b] = m.slice(1).map((v) => parseInt(v, 16));
+                return `rgba(${r},${g},${b},${alpha})`;
+            }
+
+            // Mouse: tarik di mana saja pada baris. Sentuhan: tarik lewat handle (⋮⋮) supaya scroll tetap normal.
+            qList.addEventListener("pointerdown", (e) => {
+                if (e.button > 0 || dragging || pendingDrag) return;
+                const el = e.target.closest(".q-row");
+                if (!el || e.target.closest(".acts")) return;
+                if (e.pointerType !== "mouse" && !e.target.closest(".grip"))
+                    return;
+                e.preventDefault();
+
+                // 👇 Set flag SEGERA supaya loadQueue tidak menimpa DOM saat drag
+                pendingDrag = true;
+                const releaseIfNoDrag = () => {
+                    if (pendingDrag) {
+                        pendingDrag = false;
+                        dragging = false;
+                    }
+                };
+                // timeout: kalau tidak ada gerakan dalam 400ms, anggap klik biasa
+                const noDragTimer = setTimeout(releaseIfNoDrag, 400);
+
+                const from = [...qList.children].indexOf(el),
+                    id = el.dataset.id;
+                const startY = e.clientY,
+                    grab = e.clientY - el.getBoundingClientRect().top;
+                let started = false,
+                    finished = false,
+                    y = e.clientY,
+                    raf = 0,
+                    lastTop = null,
+                    vel = 0;
+                el.setPointerCapture(e.pointerId);
+                // feedback "ditekan" sebelum mulai drag
+                el.classList.add("pressing");
+                el.style.transition =
+                    "transform .18s cubic-bezier(0.22, 1, 0.36, 1), background-color .18s";
+                let t0 = 0,
+                    curColor = null;
+
+                // Warna background drag = warna dominan cover art lagu ini
+                const tr = qData[from] || {};
+                const applyColor = (hex) => {
+                    if (!hex) return;
+                    el.style.setProperty("--drag-bg", hexA(hex, 0.28));
+                };
+                const known =
+                    tr.color ||
+                    el.dataset.color ||
+                    _colorCache.get(tr.thumbnail);
+                if (known) applyColor(known);
+                else getCoverColor(tr.thumbnail).then(applyColor);
+
+                const place = () => {
+                    const lr = qList.getBoundingClientRect();
+                    const want = y - grab - lr.top;
+
+                    // tentukan posisi sisip berdasarkan titik tengah baris yang ditarik
+                    const mid = want + el.offsetHeight / 2;
+                    const siblings = [...qList.children].filter(
+                        (c) => c !== el,
+                    );
+                    const before =
+                        siblings.find(
+                            (c) => mid < c.offsetTop + c.offsetHeight / 2,
+                        ) || null;
+                    if (before !== el.nextElementSibling) {
+                        reflow(() => qList.insertBefore(el, before));
+                        vibrate(6);
+                    }
+
+                    // miring tipis mengikuti kecepatan tarikan + sedikit membesar
+                    if (lastTop === null) lastTop = want;
+                    vel += (want - lastTop - vel) * 0.25;
+                    lastTop = want;
+                    const k = Math.min(1, (performance.now() - t0) / 280),
+                        lift = 1 - Math.pow(1 - k, 3); // easeOutCubic (tanpa bounce)
+                    const tilt =
+                        Math.max(-2.4, Math.min(2.4, vel * 0.2)) *
+                        Math.min(1, lift);
+                    el.style.transform = `translateY(${want - el.offsetTop}px) scale(${1 + 0.045 * lift}) rotate(${tilt}deg)`;
+                };
+                const tick = () => {
+                    // auto-scroll yang lebih lembut & progresif
+                    const edgeTop = 90,
+                        edgeBot = 210;
+                    if (y < edgeTop) {
+                        const p = (edgeTop - y) / edgeTop;
+                        scrollBy(0, -Math.max(2, p * p * 22));
+                    } else if (innerHeight - y < edgeBot) {
+                        const p = (edgeBot - (innerHeight - y)) / edgeBot;
+                        scrollBy(0, Math.max(2, p * p * 22));
+                    }
+                    place();
+                    raf = requestAnimationFrame(tick);
+                };
+                const move = (ev) => {
+                    y = ev.clientY;
+                    if (started || Math.abs(y - startY) < 4) return;
+                    started = true;
+                    dragging = true;
+                    pendingDrag = false;
+                    clearTimeout(noDragTimer);
+                    t0 = performance.now();
+                    el.style.transition =
+                        "background-color .25s, border-color .25s";
+                    el.classList.add("dragging");
+                    document.body.classList.add("is-dragging");
+                    vibrate(10);
+                    raf = requestAnimationFrame(tick);
+                };
+                const end = async () => {
+                    finished = true;
+                    clearTimeout(noDragTimer);
+                    pendingDrag = false;
+                    el.removeEventListener("pointermove", move);
+                    el.removeEventListener("pointerup", end);
+                    el.removeEventListener("pointercancel", end);
+                    cancelAnimationFrame(raf);
+                    el.classList.remove("pressing");
+                    if (!started) {
+                        el.style.transition = "";
+                        dragging = false; // <-- pastikan flag lepas
+                        return;
+                    }
+                    document.body.classList.remove("is-dragging");
+                    el.classList.remove("dragging");
+                    // animasi drop: meluncur halus ke slot sambil mengecil ke ukuran normal (tanpa bounce)
+                    const cur =
+                        el.style.transform ||
+                        "translateY(0px) scale(1) rotate(0deg)";
+                    el.style.transition = "background-color .28s ease-out";
+                    el.style.transform = "";
+                    el.animate(
+                        [
+                            { transform: cur },
+                            {
+                                transform:
+                                    "translateY(0px) scale(1) rotate(0deg)",
+                            },
+                        ],
+                        {
+                            duration: 220,
+                            easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+                        },
+                    );
+                    setTimeout(() => {
+                        el.style.transition = "";
+                        el.style.removeProperty("--drag-bg");
+                    }, 300);
+                    const to = [...qList.children].indexOf(el);
+                    renumber();
+                    try {
+                        if (to !== from) await commitMove(from, to, id);
+                    } catch (e) {
+                        toast(e.message || "Gagal memindahkan lagu", 1);
+                        qData = qData.slice();
+                        renderQueue();
+                    } finally {
+                        dragging = false;
+                        loadQueue();
+                    }
+                };
+                el.addEventListener("pointermove", move);
+                el.addEventListener("pointerup", end);
+                el.addEventListener("pointercancel", end);
+            });
+
+            // Keyboard: Alt + ↑ / ↓ untuk memindahkan lagu yang sedang difokus
+            qList.addEventListener("keydown", (e) => {
+                const el = e.target.closest(".q-row");
+                if (
+                    !el ||
+                    e.target !== el ||
+                    !e.altKey ||
+                    dragging ||
+                    !/^Arrow(Up|Down)$/.test(e.key)
+                )
+                    return;
+                e.preventDefault();
+                const from = [...qList.children].indexOf(el),
+                    up = e.key === "ArrowUp",
+                    to = from + (up ? -1 : 1);
+                if (to < 0 || to >= qList.children.length) return;
+                dragging = true;
+                // efek "nudge" kecil di baris yang dipindah
+                el.style.transition =
+                    "transform .3s cubic-bezier(0.34,1.56,0.64,1)";
+                el.style.transform = "scale(1.03)";
+                setTimeout(() => (el.style.transform = ""), 160);
+                reflow(() =>
+                    qList.insertBefore(
+                        el,
+                        up
+                            ? el.previousElementSibling
+                            : el.nextElementSibling.nextElementSibling,
+                    ),
+                );
+                renumber();
+                el.focus();
+                commitMove(from, to, el.dataset.id).finally(() => {
+                    dragging = false;
+                    loadQueue();
+                });
+            });
+
+            // ================= RECENT (terakhir diputar, disimpan per akun di browser) =================
+            const isYt = (u) => /(?:youtube\.com|youtu\.be)\//i.test(u || "");
+            const rkey = () => "mr_recent_" + uid;
+            function loadRecent() {
+                try {
+                    recent = JSON.parse(
+                        localStorage.getItem(rkey()) || "[]",
+                    ).filter((x) => x && x.url && x.title);
+                } catch {
+                    recent = [];
+                }
+                renderRecent();
+            }
+            function saveRecent() {
+                try {
+                    localStorage.setItem(rkey(), JSON.stringify(recent));
+                } catch {}
+            }
+            function pushRecent(p) {
+                if (!p || !p.url) return;
+                const item = {
+                    title: p.title,
+                    artist: p.author || "",
+                    thumbnail: p.thumbnail || null,
+                    duration: fmt(p.durationMS),
+                    url: p.url,
+                    requestedBy: p.requestedBy || null,
+                };
+                // ingat jalur aslinya: "youtube" (/yt) atau "music" (/play), supaya autoplay-nya ikut
+                if (typeof p.ytSource === "boolean")
+                    item.src = p.ytSource ? "youtube" : "music";
+                recent = [
+                    item,
+                    ...recent.filter((x) => x.url !== item.url),
+                ].slice(0, 30);
+                saveRecent();
+                renderRecent();
+            }
+            function renderRecent() {
+                const list = recentOpen ? recent : recent.slice(0, 6);
+                $("recentList").innerHTML = list
+                    .map(
+                        (r, i) => `
+    <div class="row">
+      ${r.thumbnail ? `<img src="${esc(r.thumbnail)}" alt="" loading="lazy">` : '<div class="ph">🎵</div>'}
+      <div class="meta">
+        <div class="t">${esc(r.title)}</div>
+        <div class="a">${esc(r.artist)}</div>
+        <div class="a qtags">
+          <span class="tag ${r.src === "youtube" ? "youtube" : "music"}">${r.src === "youtube" ? SRC.youtube : SRC.music}</span>
+        </div>
+      </div>
+      <span class="dur">${esc(r.duration || "")}</span>
+      <button class="ib" data-r="${i}" title="Tambah ke antrian" aria-label="Tambah ${esc(r.title)} ke antrian">${ICON.plus}</button>
+    </div>`,
+                    )
+                    .join("");
+                const more = $("recentMore");
+                more.style.display = recent.length > 6 ? "" : "none";
+                more.textContent = recentOpen
+                    ? "Sembunyikan"
+                    : `Lihat semua (${recent.length})`;
+                syncRecent();
+            }
+            // Recent hanya tampil kalau tidak ada hasil pencarian di layar
+            function syncRecent() {
+                $("recent").style.display =
+                    recent.length && !$("results").childElementCount
+                        ? "block"
+                        : "none";
+            }
+            $("recentList").addEventListener("click", (e) => {
+                const b = e.target.closest("[data-r]");
+                if (!b) return;
+                const r = recent[b.dataset.r];
+                if (r)
+                    playInput(
+                        r.url,
+                        r.src === "youtube" ? "youtube" : "music",
+                        b,
+                    );
+            });
+            $("recentMore").onclick = () => {
+                recentOpen = !recentOpen;
+                renderRecent();
+            };
+            $("recentClear").onclick = () => {
+                recent = [];
+                saveRecent();
+                renderRecent();
+                toast("Riwayat dihapus");
+            };
+
+            // ================= PENCARIAN (satu kotak, algoritma = /play + /yt) =================
+            const PAGE = 24; // jumlah hasil per "halaman"
+            let results = [],
+                filter = "all",
+                shown = PAGE,
+                searchSeq = 0;
+            const isUrl = (s) => /^https?:\/\//i.test(s.trim());
+
+            async function playInput(query, kind, btn) {
+                // 👇 Cek apakah ini link Playlist/Album Spotify
+                const isSpotifyPlaylist =
+                    /open\.spotify\.com\/(playlist|album)/i.test(query);
+
+                // Tampilkan toast loading jika ini playlist (karena butuh waktu agak lama)
+                if (isSpotifyPlaylist) {
+                    toast("Memuat lagu dari playlist Spotify... ⏳");
+                }
+
+                if (btn) btn.disabled = true;
+
+                try {
+                    const d = await api("/api/queue", { url: query, kind });
+                    toast(
+                        (d.title || "Lagu") +
+                            " ditambahkan" +
+                            (d.note ? " · " + d.note : ""),
+                    );
+                    queueSig = null;
+                    loadQueue();
+                } catch (e) {
+                    toast(e.message, 1);
+                }
+                if (btn) btn.disabled = false;
+            }
+
+            async function search() {
+                const q = $("q").value.trim();
+                if (!q) return;
+                if (isUrl(q)) return goBest(); // link → langsung putar
+                const my = ++searchSeq; // hasil lama tidak boleh menimpa pencarian baru
+                $("chips").style.display = "none";
+                $("results").innerHTML = '<div class="skel"></div>'.repeat(4);
+                syncRecent();
+                if (window.innerWidth <= 760)
+                    document.querySelector(".qbox").style.display = "none";
+                $("seBtn").disabled = true;
+                let data;
+                try {
+                    data = await api("/api/search?q=" + encodeURIComponent(q));
+                } catch (e) {
+                    if (my === searchSeq) {
+                        $("results").innerHTML =
+                            `<div class="empty">${esc(e.message)}</div>`;
+                        if (window.innerWidth <= 760)
+                            document.querySelector(".qbox").style.display = "";
+                    }
+                    return;
+                } finally {
+                    if (my === searchSeq) $("seBtn").disabled = false;
+                }
+                if (my !== searchSeq || !Array.isArray(data)) return;
+                results = data;
+                shown = PAGE;
+                filter = "all";
+                drawResults();
+                if (window.innerWidth <= 760)
+                    document.querySelector(".qbox").style.display = "";
+            }
+
+            function drawResults() {
+                const present = [
+                    "all",
+                    ...new Set(results.map((r) => r.source)),
+                ];
+                $("chips").style.display = results.length ? "flex" : "none";
+                $("chips").innerHTML = present
+                    .map(
+                        (s) =>
+                            `<button class="chip ${s === filter ? "on" : ""}" data-f="${s}">${s === "all" ? "Semua" : SRC[s]}</button>`,
+                    )
+                    .join("");
+                const all = results
+                    .map((r, i) => ({ r, i }))
+                    .filter((x) => filter === "all" || x.r.source === filter);
+                const list = all.slice(0, shown);
+                $("results").innerHTML = list.length
+                    ? list
+                          .map(
+                              ({ r, i }) => `
+    <div class="row">
+      ${r.thumbnail ? `<img src="${esc(r.thumbnail)}" alt="" loading="lazy">` : '<div class="ph">🎤</div>'}
+      <div class="meta"><div class="t">${esc(r.title)}</div><div class="a">${esc(r.artist)}</div><div class="a qtags"><span class="tag ${r.source}">${SRC[r.source] || ""}</span></div></div>
+      <span class="dur">${esc(r.duration || "")}</span>
+      <button class="ib" data-i="${i}" title="Tambah ke antrian" aria-label="Tambah ke antrian">${ICON.plus}</button>
+    </div>`,
+                          )
+                          .join("") +
+                      (all.length > list.length
+                          ? `<button class="more" id="moreBtn">Tampilkan lebih banyak (${all.length - list.length} lagi)</button>`
+                          : "")
+                    : '<div class="empty">Tidak ada hasil 😕</div>';
+                syncRecent();
+            }
+            $("chips").addEventListener("click", (e) => {
+                const c = e.target.closest("[data-f]");
+                if (c) {
+                    filter = c.dataset.f;
+                    shown = PAGE;
+                    drawResults();
+                }
+            });
+            $("results").addEventListener("click", (e) => {
+                if (e.target.closest("#moreBtn")) {
+                    shown += PAGE;
+                    return drawResults();
+                }
+                const b = e.target.closest("[data-i]");
+                if (!b) return;
+                const r = results[b.dataset.i];
+                // YouTube asli → jalur /yt, sisanya → jalur /play (lirik dikirim sebagai teks "artis judul")
+                playInput(
+                    r.url || r.query,
+                    r.source === "youtube" ? "youtube" : "music",
+                    b,
+                );
+            });
+
+            // ⚡ Putar = persis perilaku /play: link/teks → hasil terbaik langsung masuk
+            async function goBest() {
+                const q = $("q").value.trim();
+                if (!q) return;
+                searchSeq++;
+                $("seBtn").disabled = false;
+
+                // Tentukan jenis input
+                let kind = "music";
+                if (/open\.spotify\.com/i.test(q)) kind = "spotify";
+                else if (isYt(q)) kind = "youtube";
+
+                await playInput(q, kind, $("seBtn"));
+
+                $("q").value = "";
+                $("q").dispatchEvent(new Event("input"));
+                $("clearBtn").classList.remove("show");
+                $("results").innerHTML = "";
+                $("chips").style.display = "none";
+                syncRecent();
+            }
+            $("seBtn").onclick = () => {
+                // Jika input adalah URL, langsung putar/tambahkan (goBest)
+                // Jika teks biasa, lakukan pencarian (search)
+                if (isUrl($("q").value.trim())) {
+                    goBest();
+                } else {
+                    search();
+                }
+            };
+
+            $("clearBtn").onclick = () => {
+                $("q").value = "";
+                $("q").dispatchEvent(new Event("input"));
+                $("q").focus();
+            };
+            $("q").addEventListener("input", () => {
+                const val = $("q").value.trim();
+
+                // 👇 Tombol X muncul kalau ada teks
+                $("clearBtn").classList.toggle("show", !!$("q").value);
+
+                // 👇 Logika ubah ikon jadi (+) jika input berupa URL apa saja (termasuk Spotify)
+                if (isUrl(val)) {
+                    $("seBtn").innerHTML = ICON.plus; // Ikon tambah
+                    $("seBtn").title = "Tambahkan ke antrian";
+                    $("seBtn").setAttribute(
+                        "aria-label",
+                        "Tambahkan ke antrian",
+                    );
+                } else {
+                    $("seBtn").innerHTML = ICON.search; // Ikon search
+                    $("seBtn").title = "Cari";
+                    $("seBtn").setAttribute("aria-label", "Cari");
+                }
+
+                if (val) return;
+                searchSeq++;
+                results = [];
+                $("results").innerHTML = "";
+                $("chips").style.display = "none";
+                $("seBtn").disabled = false;
+                if (window.innerWidth <= 760)
+                    document.querySelector(".qbox").style.display = "";
+                syncRecent();
+            });
+            $("q").addEventListener("keydown", (e) => {
+                if (e.key === "Enter") e.shiftKey ? goBest() : search();
+            });
+        </script>
+    </body>
+</html>

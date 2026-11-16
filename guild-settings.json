@@ -1,0 +1,35 @@
+{
+  "931621162864218193": {
+    "stay247": true,
+    "autoDelete": true,
+    "autoDeleteSec": 5,
+    "deleteUserCmd": false,
+    "djAllowRequest": true,
+    "djAllowControl": false,
+    "djAllowQueue": true
+  },
+  "717050157522354237": {
+    "stay247": false,
+    "autoDelete": true,
+    "autoDeleteSec": 10,
+    "deleteUserCmd": false
+  },
+  "712617789936107520": {
+    "stay247": true,
+    "autoDelete": true,
+    "autoDeleteSec": 10,
+    "deleteUserCmd": false
+  },
+  "1561398147433898095": {
+    "stay247": true,
+    "autoDelete": true,
+    "autoDeleteSec": 10,
+    "deleteUserCmd": false
+  },
+  "414105258839638017": {
+    "stay247": false,
+    "autoDelete": true,
+    "autoDeleteSec": 10,
+    "deleteUserCmd": false
+  }
+}
